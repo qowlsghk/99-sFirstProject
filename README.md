@@ -1,2 +1,2 @@
-# 99-sFirstProject
+# 99sFirstProject
 UX First Project
