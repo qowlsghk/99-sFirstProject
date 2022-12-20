@@ -287,5 +287,5 @@ $topBtn.addEventListener('click', (e) => {
 
 const $web = document.querySelector('.copy__btn1');
 $web.addEventListener('click', (e) => {
-  window.location.href = 'index.html';
+  window.location.href = '../html/index.html';
 });
