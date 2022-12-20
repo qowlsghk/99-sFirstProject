@@ -1,5 +1,5 @@
 # 99sFirstProject
-대구 여행 브랜딩 사이트 제작<
+대구 여행 브랜딩 사이트 제작
 <hr>
 <ul>
   <li>팀원 배진화(first, detail), 윤아람(clk, index)</li>
