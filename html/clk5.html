@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>어서와, 대구는 처음이지?</title>
+    <link rel="stylesheet" href="../css/clk5.css?ver=1" />
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css" />
+
+    <!-- 노토산스링크 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+
+     <!-- 애니메이션 -->
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  </head>
+  <body>
+    <!-- 질문 5번  -->
+    <div class="cursor"></div>
+    <div class="top">
+      <div class="txt">
+        <h2 class="animate__animated animate__heartBeat"><span>여행</span>의 끝! 당신이 기념으로 가진것은?</h2>
+        <h1>5.</h1>
+      </div>
+      <div class="boxcenter">
+        <div class="box">
+          <div>
+            <a href="#"><div class="tBox clk ">1.유명 베이커리의 빵.</div></a>
+          </div>
+          <div>
+            <a href="#"><div class="tBox clk">2.독립 서점에서 판매하는 엽서.</div></a>
+          </div>
+          <div>
+            <a href="#"><div class="tBox clk ">3.관광안내 센터에서 받은 지도.</div></a>
+          </div>
+
+          <div>
+            <a href="#"><div class="tBox clk ">4.여행동안 찍은 사진.</div></a>
+          </div>
+        </div>
+      </div>
+      <div class="btn">
+        <a href="./clk4.html">
+          <div class="btn2">
+            <div>
+              <p>다시하기</p>
+            </div>
+          </div>
+          </a>
+        <a href="./detail.html">
+          <div class="btn2">
+            <div class="result">
+              <p class="result">결과 보기</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="clk1-C">
+        <div class="c1">
+          <div class="circle1"></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    //mouse cursor
+    let mouseCursor = document.querySelector(".cursor");
+    let navLinks = document.querySelectorAll(".txt");
+    window.addEventListener("scroll", cursor);
+    window.addEventListener("mousemove", cursor);
+    function cursor(e) {
+      mouseCursor.style.left = e.pageX + "px";
+      mouseCursor.style.top = e.pageY - scrollY + "px";
+    }
+  </script>
+  <script src="../js/event.js"></script>
+</html>

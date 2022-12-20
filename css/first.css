@@ -1,0 +1,55 @@
+body {
+    margin: 0; padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main1,
+.main2,
+.main3,
+.main4,
+.main5 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.mainTitle {
+    max-width: 50vw;
+    z-index: 100;
+    margin-bottom: 2rem;
+}
+
+.startTitle {
+    max-width: 50%;
+    z-index: 100;
+    cursor: pointer;
+    top: 30rem;
+}
+
+.startTitle2 {
+    color: white;
+    background-color: #ccf17f;
+    border-radius: 5px;
+    padding: 20px 30px;
+    width: 4vw;
+    height: 2vh;
+    font-size: 3rem;
+    font-weight: 800;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>어서와, 대구는 처음이지?</title>
+    <link rel="stylesheet" href="../css/clk1.css?ver=1" />
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css" />
+
+    <!-- 노토산스링크 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+
+     <!-- 애니메이션 -->
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+  <body>
+    <!-- 질문 1번  -->
+    <div class="top">
+      <div class="txt">
+        <h2 class=" animate__animated animate__heartBeat"><span>대구</span>하면 떠오르는 것은?</h2>
+        <h1>1.</h1>
+      </div>
+      <div class="cursor"></div>
+      <div class="boxcenter">
+        <div class="box">
+          <div>
+            커피
+            <a href="#"><div class="cle clk1-1 clk "></div></a>
+          </div>
+          <div>
+            뭉티기
+            <a href="#"><div class="five clk1-2 clk"></div></a>
+          </div>
+          <div>
+            김광석길
+            <a href="#"><div class="cle clk1-3 clk"></div></a>
+          </div>
+          <div>
+            치킨
+            <a href="#"><div class="sqr clk1-4 clk"></div></a>
+          </div>
+
+          <div>
+            <a href="#"><div class="sqr clk1-5 clk"></div></a>
+            막창
+          </div>
+          <div>
+            <a href="#"><div class="cle clk1-6 clk"></div></a>
+            떡볶이
+          </div>
+          <div>
+            <a href="#"><div class="five clk1-7 clk"></div></a>
+            빵
+          </div>
+          <div>
+            <a href="#"> <div class="cle clk1-8 clk"></div></a>
+            사과
+          </div>
+        </div>
+      </div>
+
+      <div class="btn">
+        <a href="./clk2.html">
+          <div class="btn2">
+            <div>
+              <p>다음 질문 보기</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="clk1-C">
+        <div class="c1">
+          <div class="circle1"></div>
+        </div>
+    </div>
+  </body>
+  <script>//mouse cursor
+    let mouseCursor = document.querySelector(".cursor");
+    let navLinks = document.querySelectorAll(".txt");
+    window.addEventListener("scroll", cursor);
+    window.addEventListener("mousemove", cursor);
+    function cursor(e) {
+      mouseCursor.style.left = e.pageX + "px";
+      mouseCursor.style.top = e.pageY - scrollY + "px";
+  }</script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="../js/event.js"></script>
+  
+</html>
