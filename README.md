@@ -2,6 +2,8 @@
 UX First Project
 <br>
 <hr>
-팀원 배진화(first, detail), 윤아람(clk, index)
+<ul>
+  <li>팀원 배진화(first, detail), 윤아람(clk, index)</li>
 <br>
-https://qowlsghk.github.io/99-sFirstProject/html/first.html
+  <li>https://qowlsghk.github.io/99-sFirstProject/html/first.html</li>
+</ul>
